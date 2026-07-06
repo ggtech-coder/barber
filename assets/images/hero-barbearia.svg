@@ -1,0 +1,56 @@
+<svg viewBox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Ilustração de barbeiro atendendo cliente em cadeira de barbearia clássica</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#201a16"/>
+      <stop offset="100%" stop-color="#14110f"/>
+    </linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e0bc6d"/>
+      <stop offset="100%" stop-color="#c9a24b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- radial glow -->
+  <circle cx="600" cy="180" r="260" fill="#c9a24b" opacity="0.10"/>
+  <circle cx="150" cy="820" r="220" fill="#7a2430" opacity="0.16"/>
+
+  <!-- barber chair -->
+  <g stroke="url(#brass)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M260 640 L260 460 Q260 420 300 420 L500 420 Q540 420 540 460 L540 560"/>
+    <path d="M260 640 L540 640"/>
+    <path d="M300 640 L280 780" />
+    <path d="M500 640 L520 780" />
+    <path d="M250 780 L560 780" stroke-width="10"/>
+    <path d="M250 780 Q230 830 260 860" />
+    <path d="M560 780 Q580 830 550 860" />
+    <path d="M300 420 L300 300" />
+    <path d="M300 300 Q300 260 340 260 L460 260 Q500 260 500 300 L500 420"/>
+  </g>
+
+  <!-- client silhouette -->
+  <g fill="#2a221c">
+    <circle cx="400" cy="360" r="70"/>
+    <path d="M330 470 Q400 420 470 470 L470 610 L330 610 Z"/>
+  </g>
+
+  <!-- barber silhouette (side, standing) -->
+  <g fill="#191410">
+    <circle cx="640" cy="330" r="46"/>
+    <path d="M590 400 Q640 370 700 400 L710 620 L580 620 Z"/>
+  </g>
+
+  <!-- scissors icon -->
+  <g transform="translate(600,470) rotate(18)" stroke="url(#brass)" stroke-width="5" fill="none" stroke-linecap="round">
+    <circle cx="0" cy="0" r="12"/>
+    <circle cx="0" cy="34" r="12"/>
+    <path d="M10 -8 L110 -70"/>
+    <path d="M10 42 L110 100"/>
+  </g>
+
+  <!-- signature diagonal stripe accent -->
+  <g opacity="0.9">
+    <rect x="0" y="960" width="800" height="40" fill="none"/>
+    <path d="M0 980 L800 980" stroke="url(#brass)" stroke-width="2" opacity="0.5"/>
+  </g>
+</svg>
